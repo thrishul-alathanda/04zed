@@ -242,7 +242,7 @@ h1,h2,h3,h4,h5
     {
         background: #1a1a1a;
     }
-#work h2
+#work h2 , h6
     {
         text-align: center;
     }
@@ -276,6 +276,24 @@ h1,h2,h3,h4,h5
         font-weight: 600;
         font-size: 20px;
         padding-bottom: 10px;
+    }
+#work .btn
+    {
+        background: transparent;
+        border: 2px solid #ffffff;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: bold;
+        width: 180px;
+        height: 60px;
+        margin-top: 40px;
+        padding-top: 18px;
+        transition: all 0.4s ease-in-out;
+    }
+#work .btn:hover
+    {
+        background: #00f3ff;
+        border-color: transparent;
     }
 /* end work */
 
