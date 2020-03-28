@@ -1,4 +1,7 @@
-
+// Preloader
+  $(window).on('load', function() {
+    $('#preloader').delay(3000).fadeOut('slow',function(){$(this).remove();});
+  });
 //
 $(document).ready(function() {
 			$('#fullpage').fullpage({
