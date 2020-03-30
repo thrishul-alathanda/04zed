@@ -2,6 +2,11 @@
   $(window).on('load', function() {
     $('#preloader').delay(3000).fadeOut('slow',function(){$(this).remove();});
   });
+$(window).on('load', function() {
+    $('#preloader2').delay(2500).fadeOut('slow',function(){
+		$(this).remove();
+	});
+  });
 //
 $(document).ready(function() {
 			$('#fullpage').fullpage({
