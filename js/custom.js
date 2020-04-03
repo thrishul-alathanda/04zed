@@ -25,3 +25,24 @@ $(function()
     new WOW().init();
     $(".rotate").textrotator();
 })
+//button animation
+$(document).ready(function(){
+	
+	
+	    $(".button").click(function(){
+	    	if ($.trim($("#name").val()) === "" || $.trim($("#email").val()) === "" || $.trim($("#message").val()) === "") {
+				return false;
+			}
+			else{
+		        $(this).addClass("btnactive");
+		        setTimeout(function(){
+		        	$(".button").addClass("success");
+		        }, 3700);
+		        setTimeout(function(){
+		        	$(".button").removeClass("btnactive");
+		        	$(".button").removeClass("success");
+		        },5000);
+		    }
+	    });
+	
+});
