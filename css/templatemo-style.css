@@ -505,3 +505,56 @@ footer hr
     background: #1a1a1a url("../images/294.svg") no-repeat center center;
   }
 /*end of preloader*/
+/* submit button Style */
+.button
+{
+    display: inline-block;
+    width: 160px;
+    height: 40px;
+    border: 1px solid #00f3ff;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    line-height: 35px;
+    box-shadow: border-box;
+    border-radius: 50px;
+    background-color: transparent;
+    outline: none;
+    transition: all ease 0.5s;
+}
+.btnactive{
+  font-size: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border-left-color: transparent;
+  animation: rotate 1.4s ease 0.5s infinite;
+}
+@keyframes rotate{
+  0%{
+      transform: rotate(360deg);
+  }
+}
+.success{
+position: relative;
+background-color: #7CFC00;
+animation: bounce .3s ease-in;
+}
+.success:after{
+content: "\f00c";
+
+font-family: FontAwesome;
+font-style: normal;
+font-weight: normal;
+text-decoration: inherit;
+
+color: #fff;
+font-size: 20px;
+padding-right: 0.5em;
+position: absolute;
+top: 3px;
+left: 10px;
+}
+/*end of submit button*/
