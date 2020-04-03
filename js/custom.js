@@ -41,7 +41,7 @@ $(document).ready(function(){
 		        setTimeout(function(){
 		        	$(".button").removeClass("btnactive");
 		        	$(".button").removeClass("success");
-		        },5000);
+		        },6000);
 		    }
 	    });
 	
